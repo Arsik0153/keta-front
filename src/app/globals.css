@@ -19,3 +19,13 @@ body {
     background: var(--background);
     font-family: var(--font-gilroy);
 }
+
+@layer utilities {
+    .clip-path-hidden {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    }
+
+    .clip-path-visible {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+}

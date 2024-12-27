@@ -16,6 +16,9 @@ export default {
                 gilroy: ['var(--font-gilroy)'],
             },
         },
+        container: {
+            padding: '2rem',
+        },
     },
     plugins: [],
 } satisfies Config;
