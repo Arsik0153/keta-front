@@ -44,7 +44,7 @@ const Modal = ({
                 width={1280}
                 videoConstraints={videoConstraints}
                 mirrored
-                style={{ maxWidth: '500px' }}
+                style={{ maxWidth: '500px', aspectRatio: '16/9', maxHeight: '500px' }}
             />
 
             <button
