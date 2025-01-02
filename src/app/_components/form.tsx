@@ -156,6 +156,7 @@ const Form = () => {
                                     id="passport"
                                     name="passport"
                                     className="w-full rounded-md border bg-white p-2"
+                                    accept="image/*"
                                     onChange={(e) =>
                                         setFormData({
                                             ...formData,
